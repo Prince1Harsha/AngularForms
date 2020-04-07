@@ -1,0 +1,69 @@
+
+<div class="container">
+    <h2>Registration</h2>
+    <form>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" name="name" class="form-control"/>
+        </div>
+
+        <div class="form-check form-group">
+            <input class="form-check-input" type="checkbox"
+            id="notifications" name="notifications">
+            <label class="form-check-label" for="notifications">
+            Notifications
+            </label>
+        </div>
+        <div class="form-check form-group">
+            <input class="form-check-input" type="checkbox"
+            id="alerts" name="notifications">
+            <label class="form-check-label" for="alerts">
+            Alerts
+            </label>
+        </div>
+
+        <p>Gender</p>
+        <div class="form-group">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender"
+                id="gender" value="Male" checked>
+                <label class="form-check-label" for="gender">
+                Male
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="gender"
+                id="gender" value="Female" checked>
+                <label class="form-check-label" for="gender">
+                Female
+                </label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="subscriptionType">subscription type:</label>
+            <select class="form-control" id="subscriptionType">
+                <option>Monthly</option>
+                <option>Quarterly</option>
+                <option>Annual</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="notes">Notes</label>
+            <textarea id="notes" name="notes" class="form-control"
+            rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" class="form-control">
+        </div> 
+        
+        <div class="form-group">
+            <label for="date">Date</label>
+            <input type="date" id="date" name="date" class="form-control">
+        </div>
+    <button class="btn btn-primary">ok</button>
+    </form>
+</div>
